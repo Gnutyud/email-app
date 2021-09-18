@@ -1,0 +1,60 @@
+.messageList {
+    flex: 1 0 12em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.messageList table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.active {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.messageList table td {
+    padding: 0.25em 0.75em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: small;
+    cursor: default;
+}
+
+th {
+    padding: 0.25em 0.75em;
+    text-align: left;
+}
+
+.messageList table td:nth-child(1).unread::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: blue;
+}
+
+.messageList table td:nth-child(2),
+th:nth-child(2) {
+    width: 21%;
+}
+
+.messageList table td:nth-child(3),
+th:nth-child(3) {
+    width: 62%;
+}
+
+.messageList table td:nth-child(4),
+th:nth-child(4) {
+    width: 15%;
+}
