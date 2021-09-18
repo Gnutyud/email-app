@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Email-App/static/css/main.dca2f4c8.chunk.css",
+    "main.js": "/Email-App/static/js/main.d6c66a76.chunk.js",
+    "main.js.map": "/Email-App/static/js/main.d6c66a76.chunk.js.map",
+    "runtime-main.js": "/Email-App/static/js/runtime-main.67d41f54.js",
+    "runtime-main.js.map": "/Email-App/static/js/runtime-main.67d41f54.js.map",
+    "static/js/2.093216ca.chunk.js": "/Email-App/static/js/2.093216ca.chunk.js",
+    "static/js/2.093216ca.chunk.js.map": "/Email-App/static/js/2.093216ca.chunk.js.map",
+    "index.html": "/Email-App/index.html",
+    "static/css/main.dca2f4c8.chunk.css.map": "/Email-App/static/css/main.dca2f4c8.chunk.css.map",
+    "static/js/2.093216ca.chunk.js.LICENSE.txt": "/Email-App/static/js/2.093216ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67d41f54.js",
+    "static/js/2.093216ca.chunk.js",
+    "static/css/main.dca2f4c8.chunk.css",
+    "static/js/main.d6c66a76.chunk.js"
+  ]
+}
