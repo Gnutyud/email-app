@@ -1,4 +1,4 @@
-import EmailBox from "../componets/EmailBox";
+import EmailBox from "../components/EmailBox";
 interface MessageProps{
   data : MessageType[],
   user : string
